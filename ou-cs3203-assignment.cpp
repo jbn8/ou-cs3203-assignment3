@@ -40,7 +40,12 @@ int product(vector<int> numbers){
     return product;
 }
 
+void reverse(vector<int>number){
+    reverse(number.begin(), number.end());
 
+    // print the reversed vector
+    printArray(number);
+}
 
 int main() {
     cout<< "Hi" <<'\n';
@@ -67,6 +72,11 @@ int main() {
 
     cout<< "Sum: "<< sum(numbers)<<'\n';
     cout<< "Product: "<<product(numbers) << '\n';
+
+
+    reverse(numbers);
+    cout<<"The reversed array: "<< '\n';
+
 
 
 
