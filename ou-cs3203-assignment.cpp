@@ -74,12 +74,5 @@ int main() {
     reverse(numbers);
     cout<<"The reversed array: "<< '\n';
 
-
-
-
-
     return 0;
-
-
-
 }
