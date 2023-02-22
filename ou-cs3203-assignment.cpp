@@ -15,3 +15,14 @@ int sum(vector<int> numbers){
     return sum;
 }
 
+int product(vector<int> numbers){
+    int product;
+    int vect_size = numbers.size();
+
+    if (vect_size != 0){
+        for (int i=0; i < vect_size; i++) {
+            product = product * numbers[i];
+        }
+    }
+    return product;
+}
