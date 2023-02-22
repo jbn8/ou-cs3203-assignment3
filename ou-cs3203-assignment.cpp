@@ -48,18 +48,15 @@ void reverse(vector<int>number){
 }
 
 int main() {
-    cout<< "Hi" <<'\n';
-
 
     vector<int> numbers; // inserts value at the last position
-    //numbers.push_back(val);
+
     int val;
     cout<< " Enter your value -1 to quit: " << '\n';
 
     cin >> val;
 
     while(val != -1) {
-        //int input=val;
 
         numbers.push_back(val);
         cout<< " Enter your value -1 to quit: " << '\n';
